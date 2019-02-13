@@ -17,7 +17,7 @@ title: 병길, 정연의 혼례날
 email: sky923@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   2019년 3월 2일 안산 루체웨딩홀
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ccj" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
