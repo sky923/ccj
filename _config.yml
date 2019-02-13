@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 병길, 정연의 혼례날
-email: sky923@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  2019년 3월 2일 안산 루체웨딩홀
+#title: 청첩장
+#email: sky923@gmail.com
+#description: >- # this means to ignore newlines until "baseurl:"
+#  2019년 3월 2일 안산 루체웨딩홀
 baseurl: "/ccj" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -24,9 +24,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-basically-basic
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -39,3 +39,21 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : sky923-github-io-ccj # Short-name
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: true # 댓글 활성화
+      share: false
+      related: false
