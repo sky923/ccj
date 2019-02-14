@@ -1,7 +1,7 @@
 ---
 layout: # jekyll은 사용하지 않고 index.md만 사용하기로 합니다.
 ---
-<body style="background-color:#ffe6e6;"> 
+<body style="background-color:#e3dbe8;color:#3a5769"> 
 <head>
   <title>병길, 정연의 혼례날 알림장</title>
 </head>
@@ -37,12 +37,14 @@ layout: # jekyll은 사용하지 않고 index.md만 사용하기로 합니다.
 		}
 	}
 </style>
-<article class="markdown-body">
+<article class='markdown-body'>
 	<h1 class='title'>박병길과 김정연의 혼례날</h1>
 	<h1 class='post'>무탈히 함께 한 지 9년!<br/>연인에서 부부로,<br/>저희의 새로운 시작을 축복해주세요.<br/>잔잔한 물결처럼 같은 결을 그리며 살아가겠습니다.<br/></h1><br/>
 	<img src='photo01.jpg' width='75%' height='auto'><br/><br/>
 	<h1 class='post'>2019년 3월 2일 토요일 | 오전 11시 <br/>더루체 헤리티지홀<br/></h1><br/>
-	<h1 class='post-guide-address'>경기도 안산시 단원구 중앙대로 829 더루체 | TEL : 031-484-7373​</h1>
+	<br/>
+	<br/>
+	<h1 class='post-guide-address'><b>찾아오시는 길</b> (↓↓↓터치해보세요↓↓↓)<br/><a href="http://map.daum.net/?urlX=461930&urlY=1060677&urlLevel=3&itemId=26801913&q=%EB%8D%94%EB%A3%A8%EC%B2%B4&srcid=26801913&map_type=TYPE_MAP" style="text-decoration:none;color:#3a5769" target="_blank">경기도 안산시 단원구 중앙대로 829 더루체</a> | TEL : <a href="tel:031-484-7373​" style="text-decoration:none;color:#3a5769">031-484-7373​</a><br/></h1>
 	<div id="disqus_thread"></div>
 <script>
 
@@ -63,5 +65,7 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
+<br/>
+<br/>
+<br/>             
 </article>
