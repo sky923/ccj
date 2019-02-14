@@ -7,6 +7,11 @@ layout: # jekyll은 사용하지 않고 index.md만 사용하기로 합니다.
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Noto+Serif+KR:200,300,400,500,600,700,900">
+<script>
+function getMapLink() {
+    window.location.href = 'http://map.daum.net/?urlX=461930&urlY=1060677&itemId=26801913';
+}
+</script>
 <style>
 	.markdown-body {
 		box-sizing: border-box;
@@ -44,7 +49,7 @@ layout: # jekyll은 사용하지 않고 index.md만 사용하기로 합니다.
 	<h1 class='post'>2019년 3월 2일 토요일 | 오전 11시 <br/>더루체 헤리티지홀<br/></h1><br/>
 	<br/>
 	<br/>
-	<h1 class='post-guide-address'><b>찾아오시는 길</b> (↓↓↓터치해보세요↓↓↓)<br/><a href="maps://?q=37.3175668,126.8258024" style="text-decoration:none;color:#3a5769" target="_blank">경기도 안산시 단원구 중앙대로 829 더루체</a> | TEL : <a href="tel:031-484-7373​" style="text-decoration:none;color:#3a5769">031-484-7373​</a><br/></h1>
+	<h1 class='post-guide-address'><b>찾아오시는 길</b> (↓↓↓터치해보세요↓↓↓)<br/><a href="javascript:getMapLink()" style="text-decoration:none;color:#3a5769" target="_blank">경기도 안산시 단원구 중앙대로 829 더루체</a> | TEL : <a href="tel:031-484-7373​" style="text-decoration:none;color:#3a5769">031-484-7373​</a><br/></h1>
 	<div id="disqus_thread"></div>
 <script>
 
