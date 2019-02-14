@@ -23,7 +23,7 @@ layout: # jekyll은 사용하지 않고 index.md만 사용하기로 합니다.
 	.post {
 		font-family: 'Noto Serif KR', serif;
 		font-weight: 600;
-		font-size: 100%;
+		font-size: 90%;
 	}
 	.post-guide-address {
 		font-family: 'Noto Sans KR', sans-serif;
